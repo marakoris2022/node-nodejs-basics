@@ -1,4 +1,4 @@
-import { appendFile, readFile, opendir, cp } from "node:fs/promises";
+import { opendir, cp } from "node:fs/promises";
 import { join } from "node:path";
 
 const copy = async () => {
