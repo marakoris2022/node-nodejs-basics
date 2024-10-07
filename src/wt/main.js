@@ -26,7 +26,7 @@ const performCalculations = async () => {
 
   const workerPromises = [];
   for (let i = 0; i < THREAD_COUNT; i++) {
-    workerPromises.push(createWorker(9 + i));
+    workerPromises.push(createWorker(10 + i));
   }
 
   const thread_result = await Promise.allSettled(workerPromises);
