@@ -1,5 +1,4 @@
 import { Transform } from "stream";
-import fs from "node:fs";
 
 const transform = async () => {
   const baseFolder = import.meta.dirname;
